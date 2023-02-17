@@ -112,7 +112,7 @@ a{
     font-size: small;
     position: inherit;
     top: 23px;
-    left: 10px;
+    left: -2px;
   }
   .sphere {
     position: absolute;
@@ -125,8 +125,9 @@ a{
   }
   .text-spere {
     position: inherit;
-    top: 21px;
-    left: 10px;
+    top: 25px;
+    left: 12px;
+    font-size:smaller;
   }
   
   .oval2 {
@@ -146,7 +147,7 @@ a{
     font-size: small;
     position: inherit;
     top: 23px;
-    left: 10px;
+    left: -2px;
   }
   .sphere2 {
     position: absolute;
@@ -159,7 +160,109 @@ a{
   }
   .text-spere2 {
     position: inherit;
-    top: 21px;
-    left: 10px;
+    top: 25px;
+    left: 12px;
+    font-size:smaller;
+  }
+  .block2 {
+    box-sising: border-box;
+    width:80%;
+    height: 80px;
+      padding-left: 100px;
+top: 80px;
+
   }
   
+  .block2:before {
+    display: block;
+    content: '';
+    height: 30px;
+    width: 85%;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+  
+  .block2:after {
+    display: block;
+    content: '';
+    width: 102px;
+    height: 30px;
+    margin-left: -100px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -webkit-border-radius: 0 0 100px 0;
+    -moz-border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px 0;
+  }
+  .oval3 {
+    position: inherit;
+    top: 163px;
+    left: 146px;
+    width: 110px;
+    height: 60px;
+    background: transparent;
+    border-radius: 100px/50px;
+    border: 1px solid #000000;
+    transform: skew(0, -11deg);
+  }
+  .text-oval3 {
+    font-weight: 100;
+    transform: skew(0, 11deg);
+    font-size: small;
+    position: inherit;
+    top: 23px;
+    left: -2px;
+  }
+  .sphere3 {
+    position: absolute;
+    top: 164px;
+    left: 165px;
+    width: 70px;
+    height: 70px;
+    background: #DC2F02;
+    border-radius: 50%;
+  }
+  .text-spere3 {
+    position: inherit;
+   
+    top: 25px;
+    left: 12px;
+    font-size:smaller;
+  }
+  .oval4 {
+    position: inherit;
+    top: 161px;
+    left: 19px;
+    width: 110px;
+    height: 60px;
+    background: transparent;
+    border-radius: 100px/50px;
+    border: 1px solid #000000;
+    transform: skew(0, -11deg);
+  }
+  .text-oval4 {
+    font-weight: 100;
+    transform: skew(0, 11deg);
+    font-size: small;
+    position: inherit;
+    top: 23px;
+    left: -2px;
+  }
+  .sphere4 {
+    position: absolute;
+    top: 222px;
+    left: 35px;
+    width: 70px;
+    height: 70px;
+    background: #DC2F02;
+    border-radius: 50%;
+  }
+  .text-spere4 {
+    position: inherit;
+    top: 25px;
+    left: 12px;
+    font-size:smaller;
+  }
