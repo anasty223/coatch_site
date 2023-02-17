@@ -289,3 +289,22 @@ a{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .img-contacts-container{
+    width: 250px;
+    height: 248px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #000000;
+padding-left:10px;
+padding-top: 5px;
+  }
+  .img-contacts{
+    width: 250px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 175px;
+    left: -17px;
+  }
