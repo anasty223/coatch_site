@@ -1,6 +1,6 @@
 html{
     font-size: 16px;
-    
+ 
 }
 body{
     font-family: 'Raleway',sans-serif;
@@ -8,11 +8,11 @@ body{
     font-weight: 400;
     color: #000;
     min-width: 320px;
-   
+    overflow-x:none;
 }
 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 section{
     padding: 50px 0;
@@ -55,6 +55,7 @@ a{
     left:14px;
     margin-left: auto;
     margin-right: auto;
+
   }
   .about-author{
     padding-bottom: 90px;
@@ -273,8 +274,8 @@ a{
   }
   .servises_container-img{
     position: relative;
-    width: 265px;
-    height: 180px;
+    width: 241px;
+    height: 173px;
     border-radius: 10px;
     border: 2px solid #000000;
     margin-left: auto;
@@ -288,10 +289,11 @@ a{
     left: -17px;
     margin-left: auto;
     margin-right: auto;
+    width: 250px;
   }
 
   .img-contacts-container{
-    width: 250px;
+    width: 248px;
     height: 248px;
     margin-left: auto;
     margin-right: auto;
