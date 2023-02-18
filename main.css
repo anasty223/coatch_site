@@ -14,6 +14,7 @@ img{
     /* max-width: 100%; */
     /* height: auto; */
 }
+input {outline:none;}
 section{
     padding: 50px 0;
 }
