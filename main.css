@@ -32,7 +32,8 @@ a{
   
 }
 .hero-img {
-    width: 200px;
+    /* width: 200px; */
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -315,3 +316,9 @@ padding-top: 5px;
     box-shadow: 0 0 15px red;
     border-color: #DC2F02;
   }
+
+  /* @include media-breakpoint-up(md) {
+    .custom-class {
+      display: block;
+    }
+  } */
