@@ -311,3 +311,7 @@ padding-top: 5px;
     top: 175px;
     left: -17px;
   }
+  .form_input._error{
+    box-shadow: 0 0 15px red;
+    border-color: #DC2F02;
+  }
